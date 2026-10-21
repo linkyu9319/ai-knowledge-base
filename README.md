@@ -75,6 +75,7 @@ ai-knowledge-base/
 
 ## 当前图鉴
 
+- [ChatGPT 接入自建 MCP：从 OAuth 发现到工具调用的排障实录](docs/ai-tools/mcp/chatgpt-mcp-oauth-troubleshooting.md)
 - [Windows 下 Codex 中文乱码：PowerShell 7 + UTF-8 解决记录](docs/dev-env/codex/windows-powershell7-utf8.md)
 - [Windows 下 Codex 桌面版通过 Clash Verge 连接代理的配置与校验](docs/dev-env/codex/windows-clash-verge-proxy.md)
 - [在 Codex 中让模型直接连接本机数据库（Windows / MySQL）](docs/dev-env/codex/codex-direct-db-connection.md)
