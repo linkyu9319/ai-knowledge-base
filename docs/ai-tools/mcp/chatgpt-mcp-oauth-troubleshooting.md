@@ -113,7 +113,7 @@ curl.exe --silent --show-error --max-time 15 -i "$base/.well-known/oauth-authori
 /.well-known/oauth-protected-resource/mediary/mcp
 ```
 
-部分兼容别名位于站点根或应用前缀下。以实际发现请求和响应中声明的 URL 为准；共享一个站点时，不能用本应用的兼容路由覆盖另一个 OAuth issuer 的发现入口。对应实现见 [Mediary 路径前缀代理示例](https://github.com/yunko1993/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/deploy/nginx-prefix.conf.example)。
+部分兼容别名位于站点根或应用前缀下。以实际发现请求和响应中声明的 URL 为准；共享一个站点时，不能用本应用的兼容路由覆盖另一个 OAuth issuer 的发现入口。对应实现见 [Mediary 路径前缀代理示例](https://github.com/linkyu9319/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/deploy/nginx-prefix.conf.example)。
 
 ### 4.3 核对传输、初始化和工具目录
 
@@ -284,9 +284,9 @@ OAuth client ID、client secret、服务访问口令与 access token 各有用�
 - [OpenAI：OAuth 认证要求](https://developers.openai.com/plugins/build/auth)
 - [OpenAI：MCP 服务构建与部署](https://developers.openai.com/plugins/build/mcp-server)
 - [OpenAI：故障排查](https://developers.openai.com/plugins/deploy/troubleshooting)
-- [Mediary 接入文档：v0.2.6 源码快照](https://github.com/yunko1993/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/docs/mcp.md)
-- [Mediary MCP 路由与授权页响应策略](https://github.com/yunko1993/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/mcp.mjs)
-- [Mediary OAuth 与续期实现](https://github.com/yunko1993/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/oauth.mjs)
-- [Mediary 脱敏诊断事件实现](https://github.com/yunko1993/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/diagnostics.mjs)
+- [Mediary 接入文档：v0.2.6 源码快照](https://github.com/linkyu9319/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/docs/mcp.md)
+- [Mediary MCP 路由与授权页响应策略](https://github.com/linkyu9319/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/mcp.mjs)
+- [Mediary OAuth 与续期实现](https://github.com/linkyu9319/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/oauth.mjs)
+- [Mediary 脱敏诊断事件实现](https://github.com/linkyu9319/mediary/blob/ab2982832ee32ce08ec205e70e57fa4871f9111f/server/src/diagnostics.mjs)
 
 本文未重新执行真实账号授权或重新创建临时隧道；连接过程依据当时会话中的实际结果和对应实现整理。2026-10-21 核对了上述 OpenAI 官方页面；后续 UI 或协议要求变化时，应更新本篇，而非继续套用旧截图或旧回调地址。

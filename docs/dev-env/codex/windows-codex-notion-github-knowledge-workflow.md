@@ -47,7 +47,7 @@ AI 通过已授权的 Notion 连接读取或编辑页面。Notion MCP 提供连�
 适合直接使用的提示词：
 
 ```text
-读取这篇 Notion 页面的最新正文，同步到 yunko1993/ai-knowledge-base 的 main 分支。
+读取这篇 Notion 页面的最新正文，同步到 linkyu9319/ai-knowledge-base 的 main 分支。
 目标文件：docs/dev-env/codex/windows-codex-notion-github-knowledge-workflow.md。
 保留标题、列表、代码块和路径信息，把已知仓库内文章的 Notion 链接转换为相对 Markdown 链接。
 提交后在 C:\github\ai-knowledge-base 拉取并验证。
@@ -71,7 +71,7 @@ AI 通过已授权的 Notion 连接读取或编辑页面。Notion MCP 提供连�
 本次目标仓库：
 
 ```text
-GitHub：yunko1993/ai-knowledge-base
+GitHub：linkyu9319/ai-knowledge-base
 分支：main
 本地：C:\github\ai-knowledge-base
 ```
